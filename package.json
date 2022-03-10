@@ -4,12 +4,15 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RiderCogswell/zookeepr.git"
+  },
+  "headers": {
+    "host": "https://hidden-dusk-27431.herokuapp.com/"
   },
   "keywords": [],
   "author": "",
