@@ -3,7 +3,7 @@ const path = require('path');
 const express = require('express');
 const { animals } = require('./data/animals.json');
 
-const PORT = process.env.PORT || 3008
+const PORT = process.env.PORT || 3008;
 const app = express();
 
 // parse incoming string or array data
