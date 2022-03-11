@@ -114,7 +114,8 @@ app.post('/api/animals', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send('homepage')
+    // res.sendFile(path.join(__dirname, './public/index.html'));
+    res.send('butts');
 })
 
 app.listen(PORT, () => {
