@@ -113,6 +113,10 @@ app.post('/api/animals', (req, res) => {
     }
 });
 
+app.get('/', (req, res) => {
+    res.send('homepage')
+})
+
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
 });
