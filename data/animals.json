@@ -219,6 +219,28 @@
         "hungry"
       ],
       "id": "23"
+    },
+    {
+      "name": "Joanna",
+      "species": "Tiger",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "zany",
+        "loving",
+        "goofy"
+      ],
+      "id": "24"
+    },
+    {
+      "name": "Joanna",
+      "species": "lion",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "zany",
+        "loving",
+        "goofy"
+      ],
+      "id": "25"
     }
   ]
 }
